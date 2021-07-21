@@ -1,0 +1,34 @@
+.movie {
+  background-color: #f5f5f5;
+  position: relative;
+  padding: 15px;
+  padding-left: 100px;
+  margin-bottom: 40px;
+  box-shadow: 1px 1px 2px 2px #cccccc;
+  min-height: 100px;
+  transition: box-shadow .3s ease;
+}
+
+.movie:hover {
+  box-shadow: 1px 1px 2px 2px #aaaaaa;
+}
+
+.movie-title {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.movie-img {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: -10px;
+  left: 10px;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
+}
+
+.movie-stars {
+  list-style-type: none;
+  display: flex;
+}
