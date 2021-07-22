@@ -2,10 +2,10 @@ import React from 'react';
 import './MovieCards.css';
 import Stars from '../Stars/Stars';
 
-export default function Movie({ movie }) {
+export default function Movie({ movie, img }) {
     return (
     <div className="movie">
-      <div className="movie-img" />
+      <img className="movie-img" src={img} alt=''/>
       <div className="movie-title">{movie.name}</div>
       <ul className="movie-stars">
         <Stars rate={movie.rate} />
